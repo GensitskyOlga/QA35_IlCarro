@@ -50,10 +50,13 @@ public class HelperUser extends HelperBase{
         wd.findElement(By.xpath("//a[text()=' Logout ']")).click();
     }
 
+
     public void clickOkButton() {
 
         click(By.xpath("//button[text()='Ok']"));
     }
+
+
 }
 
 
