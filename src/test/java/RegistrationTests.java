@@ -1,4 +1,5 @@
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -18,6 +19,16 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
+
+    }
+    @Test
+    public void registrationWrongPassword(){
+        User user = new User().withName("Nina").withLastname("Ivanov").withEmail("nina@mail.com").withPassword("nina");
+        app.getHelperUser().openRegistrationFormHeader();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        app.getHelperUser().submit();
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
     }
     
 }
