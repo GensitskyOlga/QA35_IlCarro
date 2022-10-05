@@ -1,0 +1,3 @@
+04:24:06.398  INFO  TestBase - Test start with name---> loginSuccess
+04:24:06.858  INFO  TestBase - User email gensitskaya@bk.ru & password Od123456$
+04:24:07.620  INFO  TestBase - assert passed

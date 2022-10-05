@@ -88,7 +88,10 @@ public class HelperUser extends HelperBase{
         type(By.id("password"), user.getPassword());
     }
 
-
+    public void checkPolicy() {
+        //click(By.id("terms-of-use"));
+        click(By.cssSelector("label[for='terms-of-use']"));
+    }
     public void checkPolicyXY(){
         WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
         Rectangle rect = label.getRect();
@@ -103,8 +106,10 @@ public class HelperUser extends HelperBase{
 
     }
 
-    public void chekPolicy() {
-        click(By.cssSelector("label[for='terms-of-use']"));
-
+    public void login(User user) {
+        openLoginFormHeader();
+        fillLoginForm(user);
+        submit();
+        clickOkButton();
     }
 }

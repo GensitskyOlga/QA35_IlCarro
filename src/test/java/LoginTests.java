@@ -55,7 +55,7 @@ public class LoginTests extends TestBase{
     }
     @Test
     public void negativeWrongPassword(){
-        User user=new User().withEmail("gensitskaya@bk.ru").withPassword("12345$");
+        User user=new User().withEmail("gensitskaya@bk.ru").withPassword("Ww$");
 
         app.getHelperUser().openLoginFormHeader();
         app.getHelperUser().fillLoginForm(user);
