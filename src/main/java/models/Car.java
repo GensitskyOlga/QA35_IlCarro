@@ -21,12 +21,10 @@ public class Car {
     private String doors;
     private String seats;
     private String clasS;
-    private String fuelConsumption;
-    private String carRegistrationNumber;
+    private String fuelConsumption ;
+    private String carRegistrationNumber ;
     private String price;
-    private String distanceIncluded;
+    private String distanceIncluded ;
     private String features;
     private String about;
-
-
 }

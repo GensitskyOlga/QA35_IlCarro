@@ -1,0 +1,20 @@
+21:38:19.749  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+21:38:25.047  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+21:38:25.077  INFO  TestBase - Start Method with name --->searchCurrentMonthSuccess
+21:38:25.080  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+21:38:25.108  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+21:38:25.247  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+21:38:25.703  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+21:38:25.745  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+21:38:25.768  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+21:38:25.861  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 25 ']
+21:38:25.886  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 25 ']
+21:38:25.940  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 30 ']
+21:38:25.972  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 30 ']
+21:38:26.039  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:38:26.069  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:38:26.118  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+21:38:26.149  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+21:38:27.256  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: (//div[@class='car-img-container ng-star-inserted'])[4]
+21:38:27.356  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: (//div[@class='car-img-container ng-star-inserted'])[4]
+21:38:27.360  INFO  manager.ListenerWD - List size is -->1
