@@ -1,0 +1,31 @@
+10:44:26.802  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+10:44:29.693  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+10:44:30.162  INFO  TestBase - Start Method with name --->searchAnyPeriod
+10:44:30.173  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+10:44:30.210  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+10:44:30.359  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+10:44:31.012  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+10:44:31.078  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+10:44:31.110  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+10:44:31.651  INFO  manager.HelperBase - year:2022
+10:44:31.652  INFO  manager.HelperBase - Day of Month-->:23
+10:44:31.653  INFO  manager.HelperBase - Month value-->10
+10:44:31.653  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[@aria-label='Next month']
+10:44:31.685  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[@aria-label='Next month']
+10:44:31.763  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[@aria-label='Next month']
+10:44:31.793  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[@aria-label='Next month']
+10:44:31.877  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 20 ']
+10:44:31.910  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 20 ']
+10:44:31.979  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //button[@aria-label='Next month']
+10:44:32.004  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //button[@aria-label='Next month']
+10:44:32.072  INFO  manager.ListenerWD - Before Find Element By -->By.xpath: //div[text()=' 10 ']
+10:44:32.111  INFO  manager.ListenerWD - After Find Element By -->By.xpath: //div[text()=' 10 ']
+10:44:32.296  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+10:44:32.346  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+10:44:32.414  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: button[type='submit']
+10:44:32.443  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: button[type='submit']
+10:44:33.635  INFO  manager.ListenerWD - Before Find Elements By -->By.xpath: (//div[@class='car-img-container ng-star-inserted'])[4]
+10:44:34.137  INFO  manager.ListenerWD - After Find Elements By -->By.xpath: (//div[@class='car-img-container ng-star-inserted'])[4]
+10:44:34.138  INFO  manager.ListenerWD - List size is -->1
+10:44:34.142  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: input[aria-haspopup='dialog']
+10:44:34.174  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: input[aria-haspopup='dialog']

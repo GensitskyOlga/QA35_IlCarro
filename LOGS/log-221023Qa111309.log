@@ -1,0 +1,25 @@
+11:13:13.208  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:13:15.712  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:13:15.747  INFO  TestBase - Start Method with name --->searchInPast
+11:13:15.749  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+11:13:15.779  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+11:13:15.908  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+11:13:16.433  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+11:13:16.474  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:13:16.500  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:13:16.622  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:13:16.643  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:13:17.719  INFO  manager.ListenerWD - We have a 'problem'
+11:13:17.720  INFO  manager.ListenerWD - The name of error method  click
+11:13:17.726  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-udb-c72="" formcontrolname="dates" id="dates" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2022-10-23" max="2023-10-23" aria-owns="sat-datepicker-0"> is not clickable at point (301, 350). Other element would receive the click: <table class="mat-calendar-table">...</table>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-0R1O53S', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b5235b2eb637380abf40d636ad4edd5, clickElement {id=9367ea95-5773-4da7-87b0-bf9f6cef4b33}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51708}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51708/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b5235b2eb637380abf40d636ad4edd5)] -> id: dates]
+Session ID: 1b5235b2eb637380abf40d636ad4edd5
+11:13:17.728  INFO  manager.ListenerWD - *********************
+11:13:17.728  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (1b5235b2eb637380abf40d636ad4edd5)] -> id: dates]
+11:13:17.742  INFO  manager.ListenerWD - Screen with error is  1357 ****src/test/screenshots/screen1357.png

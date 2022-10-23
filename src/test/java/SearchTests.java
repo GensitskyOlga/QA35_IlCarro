@@ -18,5 +18,18 @@ public class SearchTests extends TestBase{
         app.getSearch().submit();
         Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
     }
-   
+    @Test
+public void searchAnyPeriod(){
+        app.getSearch().selectAnyPeriod("Tel Aviv","12/20/2022","1/10/2023");
+    app.getSearch().submit();
+    Assert.assertTrue(app.getSearch().isListOfCarsAppeared());
+    Assert.assertTrue(app.getSearch().isDataCorrect("12/20/2022","1/10/2023"));
+    }
+    @Test
+    public void searchInPast(){
+        app.getSearch().typePeriodInPast("Tel Aviv","10/5/2022","10/10/2022");
+       //app.getSearch().submit();
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+        Assert.assertTrue(app.getHelperUser().isErrorMessageDisplayed());
+    }
 }

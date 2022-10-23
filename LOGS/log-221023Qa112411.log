@@ -1,0 +1,25 @@
+11:24:14.008  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:24:17.128  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:24:17.162  INFO  TestBase - Start Method with name --->searchInPast
+11:24:17.175  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+11:24:17.204  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+11:24:17.339  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+11:24:17.765  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+11:24:17.807  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:24:17.835  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:24:17.930  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .search-container
+11:24:17.954  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .search-container
+11:24:19.009  INFO  manager.ListenerWD - We have a 'problem'
+11:24:19.009  INFO  manager.ListenerWD - The name of error method  click
+11:24:19.012  INFO  manager.ListenerWD - Describe of error org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div _ngcontent-lbh-c72="" class="search-container">...</div> is not clickable at point (239, 295). Other element would receive the click: <div class="mat-calendar-body-cell-content">...</div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-0R1O53S', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0066d4aed8a24ba4ff1d711cdd2e1864, clickElement {id=2d36b618-086a-49e5-b984-67fb5b0ec341}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\olga\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52425}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52425/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0066d4aed8a24ba4ff1d711cdd2e1864)] -> css selector: .search-container]
+Session ID: 0066d4aed8a24ba4ff1d711cdd2e1864
+11:24:19.012  INFO  manager.ListenerWD - *********************
+11:24:19.012  INFO  manager.ListenerWD - [[ChromeDriver: chrome on WINDOWS (0066d4aed8a24ba4ff1d711cdd2e1864)] -> css selector: .search-container]
+11:24:19.021  INFO  manager.ListenerWD - Screen with error is  1682 ****src/test/screenshots/screen1682.png

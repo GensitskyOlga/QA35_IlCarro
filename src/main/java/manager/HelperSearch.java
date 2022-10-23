@@ -5,6 +5,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class HelperSearch extends HelperBase{
     public HelperSearch(WebDriver wd) {
         super(wd);
@@ -95,4 +98,67 @@ public class HelperSearch extends HelperBase{
     }
 
 
+    public void selectAnyPeriod(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        click(By.id("dates"));
+        LocalDate now=LocalDate.now();
+        LocalDate from=LocalDate.parse(dataFrom, DateTimeFormatter.ofPattern("M/d/yyyy"));
+        LocalDate to=LocalDate.parse(dataTo,DateTimeFormatter.ofPattern("M/d/yyyy"));
+
+        logger.info("year:"+now.getYear());
+       logger.info("Day of Month-->:"+now.getDayOfMonth());
+         logger.info("Month value-->"+now.getMonthValue());
+//String [] from=dataFrom.split("/");from[2]="2022";
+//int diffYear=Integer.parseInt(from[2])-now.getYear();
+
+int diffYear;
+int diffMonth;
+diffYear=from.getYear()-now.getYear();
+if(diffYear==0){
+    diffMonth=from.getMonthValue()-now.getMonthValue();
+
+}else{
+    diffMonth=12- now.getMonthValue()+from.getMonthValue();
+}
+clickNextMonth(diffMonth);
+String locator=String.format("//div[text()=' %s ']",from.getDayOfMonth());
+click(By.xpath(locator));
+diffYear=to.getYear()- from.getYear();
+if (diffYear==0){
+    diffMonth=to.getMonthValue()- from.getMonthValue();
+
+}else {
+    diffMonth=12-from.getMonthValue()+to.getMonthValue();
+
+}
+clickNextMonth(diffMonth);
+locator=String.format("//div[text()=' %s ']",to.getDayOfMonth());
+click(By.xpath(locator));
+
+    }
+
+    private void clickNextMonth(int count) {
+        for (int i=0;i<count;i++ ){
+            click(By.xpath("//button[@aria-label='Next month']"));
+        }
+
+
+    }
+
+    public boolean isDataCorrect(String from, String to) {
+        WebElement element=wd.findElement(By.cssSelector("input[aria-haspopup='dialog']"));
+        System.out.println(element.getText());
+
+        return true ;
+
+    }
+
+    public void typePeriodInPast(String city, String from, String to) {
+        typeCity(city);
+        click(By.id("dates"));
+        click(By.cssSelector(".cdk-overlay-container"));
+        type(By.id("dates"),from+"-"+to);
+        click(By.cssSelector(".cdk-overlay-container"));
+
+    }
 }

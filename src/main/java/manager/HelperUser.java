@@ -115,4 +115,10 @@ public class HelperUser extends HelperBase{
         submit();
         clickOkButton();
     }
+
+    public boolean isErrorMessageDisplayed() {
+        logger.info("Error: You can't pick date before today");
+        return wd.findElement(By.cssSelector("div.error div"))
+                .getText().equals("You can't pick date before today");
+    }
 }

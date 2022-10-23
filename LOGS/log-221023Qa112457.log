@@ -1,0 +1,18 @@
+11:25:00.075  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:25:02.071  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:25:02.102  INFO  TestBase - Start Method with name --->searchInPast
+11:25:02.105  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+11:25:02.131  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+11:25:02.254  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+11:25:02.785  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+11:25:02.827  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:25:02.850  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:25:02.943  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+11:25:02.965  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+11:25:03.016  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:25:03.037  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:25:03.215  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+11:25:03.257  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+11:25:03.261  INFO  manager.ListenerWD - List size is -->2
+11:25:03.262  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+11:25:03.291  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']

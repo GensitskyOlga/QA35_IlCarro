@@ -1,0 +1,23 @@
+11:28:35.610  INFO  manager.ApplicationManager - All tests start in  ChromeDriver
+11:28:37.594  INFO  manager.ApplicationManager - The current url is --->https://ilcarro-1578153671498.web.app/search
+11:28:37.619  INFO  TestBase - Start Method with name --->searchInPast
+11:28:37.622  INFO  manager.ListenerWD - Before Find Element By -->By.id: city
+11:28:37.649  INFO  manager.ListenerWD - After Find Element By -->By.id: city
+11:28:37.786  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.pac-item
+11:28:38.248  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.pac-item
+11:28:38.292  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:28:38.321  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:28:38.419  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+11:28:38.444  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+11:28:38.492  INFO  manager.ListenerWD - Before Find Element By -->By.id: dates
+11:28:38.512  INFO  manager.ListenerWD - After Find Element By -->By.id: dates
+11:28:38.697  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: .cdk-overlay-container
+11:28:38.719  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: .cdk-overlay-container
+11:28:38.766  INFO  manager.ListenerWD - Before Find Elements By -->By.cssSelector: button[disabled]
+11:28:38.811  INFO  manager.ListenerWD - After Find Elements By -->By.cssSelector: button[disabled]
+11:28:38.816  INFO  manager.ListenerWD - List size is -->2
+11:28:38.816  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: [type='submit']
+11:28:38.855  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: [type='submit']
+11:28:38.870  INFO  manager.HelperBase - Error: You can't pick date before today
+11:28:38.870  INFO  manager.ListenerWD - Before Find Element By -->By.cssSelector: div.error div
+11:28:38.892  INFO  manager.ListenerWD - After Find Element By -->By.cssSelector: div.error div
